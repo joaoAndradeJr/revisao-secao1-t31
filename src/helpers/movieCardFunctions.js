@@ -13,7 +13,6 @@ export const createMovieCard = ({ title, subtitle, storyline, rating, imagePath 
   section.appendChild(subtitleH4);
 
   const image = document.createElement('img');
-  console.log(imagePath)
   image.className = 'movie-poster';
   image.src = imagePath;
   image.alt = `${title} movie poster`;
