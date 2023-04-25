@@ -13,13 +13,13 @@ const movies = [
     size: '6.779 km',
     imagePath: '/planets/Marte.png',
   },
-  // {
-  //   title: 'Ghost In The Shell',
-  //   subtitle: 'Ghost In The Shell',
-  //   storyline: 'A hacker known as the Puppet Master is hunted by a female cyborg cop and her partner. This film is a revised version of Ghost in the Shell (1995).',
-  //   size: '6.779 km',
-  //   imagePath: '/plantes/Mercurio.png',
-  // },
+  {
+    title: 'Mercúrio',
+    subtitle: 'Apolo',
+    storyline: 'O planeta Mercúrio possui três recordes: é o mais rápido, o mais próximo do sol e o menor planeta do sistema solar. Mercúrio é o primeiro planeta do sistema solar, a contar a partir da proximidade com o Sol, distando-se em apenas 57,9 milhões de quilômetros da estrela em média.',
+    size: '4.879 km',
+    imagePath: '/planets/Mercurio.png',
+  },
   {
     title: 'Netuno',
     subtitle: 'Planeta Azul ou Deus dos Mares',
