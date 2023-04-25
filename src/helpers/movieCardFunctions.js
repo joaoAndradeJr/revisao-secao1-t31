@@ -1,32 +1,32 @@
-export const createMovieCard = ({ title, subtitle, storyline, rating, imagePath }) => {
+export const createMovieCard = ({ title, subtitle, storyline, size, imagePath }) => {
   const section = document.createElement('section');
-  section.className = 'movie';
+  section.className = 'planet';
 
   const titleH3 = document.createElement('h3');
-  titleH3.className = 'movie-title';
+  titleH3.className = 'planet-title';
   titleH3.innerText = title;
   section.appendChild(titleH3);
 
   const subtitleH4 = document.createElement('h4');
-  subtitleH4.className = 'movie-subtitle';
+  subtitleH4.className = 'planet-subtitle';
   subtitleH4.innerText = subtitle;
   section.appendChild(subtitleH4);
 
   const image = document.createElement('img');
-  image.className = 'movie-poster';
+  image.className = 'planet-poster';
   image.src = imagePath;
-  image.alt = `${title} movie poster`;
+  image.alt = `${title} planet poster`;
   section.appendChild(image);
 
   const storylineP = document.createElement('p');
-  storylineP.className = 'movie-storyline';
+  storylineP.className = 'planet-storyline';
   storylineP.innerText = storyline;
   section.appendChild(storylineP);
 
-  const ratingP = document.createElement('p');
-  ratingP.className = 'movie-rating';
-  ratingP.innerText = `Rating: ${rating}`;
-  section.appendChild(ratingP);
+  const sizeP = document.createElement('p');
+  sizeP.className = 'planet-rating';
+  sizeP.innerText = `Tamanho: ${size}`;
+  section.appendChild(sizeP);
 
   return section;
 };
